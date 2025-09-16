@@ -23,8 +23,8 @@ Bienvenido/a a mi portfolio personal. Aquí muestro información sobre mí, mis 
 1. Clona el repo:
 
    ```bash
-   git clone https://github.com/<tu-usuario>/<tu-repo>.git
-   cd <tu-repo>
+   git clone https://github.com/hugomnz/portfolio.git
+   cd portfolio
    ```
 2. Abre en VS Code:
 
@@ -44,19 +44,10 @@ Bienvenido/a a mi portfolio personal. Aquí muestro información sobre mí, mis 
 
 ## 📚 Proyecto destacado
 
-* **minesweeper-hugomnz** — Implementación del clásico Buscaminas.
+* **minesweeper** — Implementación del clásico Buscaminas.
 
   * Código: \<ENLACE\_AL\_REPO>
   * Demo: \<ENLACE\_A\_LA\_DEMO> (si usas GitHub Pages u otro hosting)
-
-## 🌐 Despliegue con GitHub Pages
-
-1. Ve a **Settings → Pages**.
-2. En **Build and deployment**, selecciona **Deploy from a branch**.
-3. Elige la rama `main` y carpeta `/root`.
-4. Guarda y visita la URL que te muestra GitHub.
-
-> Si nombras el repo `TU-USUARIO.github.io`, tu portfolio quedará en `https://TU-USUARIO.github.io/`.
 
 ## 📝 Licencia
 
