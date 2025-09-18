@@ -1,164 +1,214 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio — Hugo Muñoz Pérez</title>
-    <meta name="description"
-        content="Portfolio de Hugo Muñoz Pérez: estudiante de 3º del Doble Grado en Ing. Informática + Ing. Robótica e IA (UCJC). Proyectos, habilidades y contacto." />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <!-- Enlace a los estilos -->
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Hugo Muñoz Pérez</title>
+  <meta name="description" content="Portfolio de Hugo Muñoz Pérez: estudiante de 3º del Doble Grado en Ing. Informática + Ing. Robótica e IA (UCJC). Proyectos, habilidades y contacto." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="brand"><span class="dot" aria-hidden="true"></span> <span>Hugo Muñoz Pérez</span></div>
-                <div class="links">
-                    <a href="#about">Sobre mí</a>
-                    <a href="#projects">Proyectos</a>
-                    <a href="#skills">Habilidades</a>
-                    <a href="#contact">Contacto</a>
-                </div>
-            </nav>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand"><span class="dot" aria-hidden="true"></span> <span>Hugo Muñoz Pérez</span></div>
+        <div class="links">
+          <a href="#about">Sobre mí</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#skills">Habilidades</a>
+          <a href="#contact">Contacto</a>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <main class="container">
-        <!-- ===== Hero ===== -->
-        <section class="hero">
-            <div class="intro card">
-                <div class="kicker">Hola, soy <strong>Hugo</strong> 👋</div>
-                <h1>Estudiante de 3º del Doble Grado en <span class="highlight">Ing. Informática</span> + <span
-                        class="highlight">Ing. Robótica e IA</span> (UCJC)</h1>
-                <p class="subtitle">Me gusta construir soluciones simples y útiles con código claro. Aquí verás mi
-                    proyecto actual, mi stack y cómo contactar conmigo.</p>
-                <div class="cta">
-                    <a class="btn" href="#projects">Ver proyecto</a>
-                    <a class="btn secondary" href="https://github.com/hugomnz" target="_blank" rel="noopener">GitHub</a>
-                </div>
+  <main class="container">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="intro card">
+        <div class="kicker">Hola, soy <strong>Hugo</strong> 👋</div>
+        <h1>Estudiante de 3º del Doble Grado en <span class="highlight">Ing. Informática</span> + <span class="highlight">Ing. Robótica e IA</span> (UCJC)</h1>
+        <p class="subtitle">Me gusta construir soluciones simples y útiles con código claro. Aquí verás mis proyectos, mi stack y cómo contactar conmigo.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">Ver proyectos</a>
+          <a class="btn secondary" href="https://github.com/hugomnz" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="photo card" aria-hidden="true">
+        <div class="avatar">HM</div>
+      </div>
+    </section>
+
+    <!-- ===== Sobre mí ===== -->
+    <section id="about">
+      <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Sobre mí</h2>
+      <div class="about">
+        <div class="card pad">
+          <p>Soy estudiante de tercero del <strong>Doble Grado en Ingeniería Informática + Ingeniería Robótica e IA</strong> en la <strong>UCJC</strong>. Me interesa el desarrollo web, la programación en Python y JavaScript, y todo lo relacionado con automatización e inteligencia artificial.</p>
+          <p>Busco seguir aprendiendo construyendo proyectos reales y colaborando con otras personas desarrolladoras.</p>
+        </div>
+        <div class="card pad">
+          <p><strong>Contacto</strong></p>
+          <div class="contact-items">
+            <a class="tag" href="mailto:mperez.hugo6@gmail.com">mperez.hugo6@gmail.com</a>
+            <a class="tag" href="https://github.com/hugomnz" target="_blank" rel="noopener">Mi GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Proyectos ===== -->
+    <section id="projects">
+      <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Proyectos</h2>
+      <div class="projects">
+
+        <!-- Gestion-productos-express -->
+        <article class="project card">
+          <div class="thumb">Express + SQLite</div>
+          <div class="body">
+            <h3>Gestion-productos-express</h3>
+            <p class="subtitle">App Node.js con Express, EJS y SQLite: registro/login, sesiones y CRUD de productos.</p>
+            <div class="tags">
+              <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">SQLite</span><span class="tag">EJS</span>
             </div>
-            <div class="photo card" aria-hidden="true">
-                <div class="avatar">HM</div>
+            <div class="buttons">
+              <a class="btn secondary" href="https://github.com/hugomnz/Gestion-productos-express#readme" target="_blank" rel="noopener">Ver</a>
+              <a class="btn" href="https://github.com/hugomnz/Gestion-productos-express" target="_blank" rel="noopener">Código</a>
             </div>
-        </section>
+          </div>
+        </article>
 
-        <!-- ===== Sobre mí ===== -->
-        <section id="about">
-            <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Sobre mí</h2>
-            <div class="about">
-                <div class="card pad">
-                    <p>Soy estudiante de tercero del <strong>Doble Grado en Ingeniería Informática + Ingeniería Robótica
-                            e IA</strong> en la <strong>UCJC</strong>. Me interesa el desarrollo web, la programación en
-                        Python y JavaScript, y todo lo relacionado con automatización e inteligencia artificial.</p>
-                    <p>Busco seguir aprendiendo construyendo proyectos reales y colaborando con otras personas
-                        desarrolladoras.</p>
-                </div>
-                <div class="card pad">
-                    <p><strong>Contacto</strong></p>
-                    <div class="contact-items">
-                        <a class="tag" href="mailto:mperez.hugo6@gmail.com">mperez.hugo6@gmail.com</a>
-                        <a class="tag" href="https://github.com/hugomnz" target="_blank" rel="noopener">Mi GitHub</a>
-                    </div>
-                </div>
+        <!-- Portfolio (este sitio) -->
+        <article class="project card">
+          <div class="thumb">Portfolio</div>
+          <div class="body">
+            <h3>Portfolio</h3>
+            <p class="subtitle">Mi portfolio personal en HTML, CSS y JS. Incluye información, habilidades, proyectos y contacto.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
             </div>
-        </section>
-
-        <!-- ===== Proyectos ===== -->
-        <section id="projects">
-            <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Proyecto</h2>
-            <div class="projects">
-                <!-- Proyecto único por ahora -->
-                <article class="project card">
-                    <div class="thumb">Minesweeper</div>
-                    <div class="body">
-                        <h3>Minesweeper</h3>
-                        <p class="subtitle">Implementación del clásico Buscaminas. Incluye lógica de tablero, detección
-                            de minas y control de estados.</p>
-                        <div class="tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                        </div>
-                        <div class="buttons">
-                            <a class="btn secondary"
-                                href="https://github.com/hugomnz/minesweeper/blob/master/README.md"
-                                target="_blank" rel="noopener">Para probar</a>
-                            <a class="btn" href="https://github.com/hugomnz/minesweeper/blob/master/index.html"
-                                target="_blank" rel="noopener">Código</a>
-                        </div>
-                    </div>
-                </article>
-                <!-- Proyecto 2: Portfolio -->
-                <article class="project card">
-                    <div class="thumb">Portfolio</div>
-                    <div class="body">
-                        <h3>Portfolio</h3>
-                        <p class="subtitle">Mi portfolio personal en HTML, CSS y JS. Contiene mi información,
-                            habilidades, y proyectos destacados.</p>
-                        <div class="tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                        <div class="buttons">
-                            <a class="btn secondary" href="index.html">Volver al portfolio</a>
-                            <a class="btn" href="https://github.com/hugomnz/portfolio/blob/main/README.md"
-                                target="_blank" rel="noopener">README</a>
-                        </div>
-                    </div>
-                </article>
-
+            <div class="buttons">
+              <a class="btn secondary" href="index.html">Volver al portfolio</a>
+              <a class="btn" href="https://github.com/hugomnz/Portfolio/blob/main/README.md" target="_blank" rel="noopener">README</a>
             </div>
-        </section>
+          </div>
+        </article>
 
-        <!-- ===== Habilidades ===== -->
-        <section id="skills">
-            <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Habilidades</h2>
-            <div class="skills">
-                <div class="chip">HTML</div>
-                <div class="chip">CSS</div>
-                <div class="chip">JavaScript</div>
-                <div class="chip">Python</div>
-                <div class="chip">Git & GitHub</div>
-                <div class="chip">Linux</div>
+        <!-- Generador-examenes.express -->
+        <article class="project card">
+          <div class="thumb">PDFKit</div>
+          <div class="body">
+            <h3>Generador-examenes.express</h3>
+            <p class="subtitle">Crea exámenes dinámicos y descárgalos en PDF (Express + EJS + PDFKit).</p>
+            <div class="tags">
+              <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">EJS</span><span class="tag">PDFKit</span>
             </div>
-        </section>
-
-        <!-- ===== Contacto ===== -->
-        <section id="contact">
-            <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Contacto</h2>
-            <div class="contact-grid">
-                <div class="card pad">
-                    <form id="contact-form" novalidate>
-                        <input required type="text" name="name" placeholder="Tu nombre" />
-                        <input required type="email" name="email" placeholder="Tu email" />
-                        <textarea required name="message" placeholder="Tu mensaje"></textarea>
-                        <button class="btn" type="submit">Enviar</button>
-                        <p id="form-status" class="subtitle" style="margin:8px 0 0"></p>
-                    </form>
-                </div>
-                <div class="card pad">
-                    <p class="subtitle">¿Prefieres email directo?</p>
-                    <p><a href="mailto:mperez.hugo6@gmail.com">mperez.hugo6@gmail.com</a></p>
-                </div>
+            <div class="buttons">
+              <a class="btn secondary" href="https://github.com/hugomnz/Generador-examenes.express#readme" target="_blank" rel="noopener">Ver</a>
+              <a class="btn" href="https://github.com/hugomnz/Generador-examenes.express" target="_blank" rel="noopener">Código</a>
             </div>
-        </section>
+          </div>
+        </article>
 
-        <footer>
-            <div class="container" style="padding:0">
-                © <span id="year"></span> Hugo Muñoz Pérez · Hecho con HTML, CSS y JS
+        <!-- Formulario-reserva-viajes -->
+        <article class="project card">
+          <div class="thumb">Form + Validación</div>
+          <div class="body">
+            <h3>Formulario-reserva-viajes</h3>
+            <p class="subtitle">Formulario con validaciones (nombre, DNI, correo, fechas, condiciones, clase de viaje y seguro).</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
             </div>
-        </footer>
-    </main>
+            <div class="buttons">
+              <a class="btn secondary" href="https://github.com/hugomnz/Formulario-reserva-viajes#readme" target="_blank" rel="noopener">Ver</a>
+              <a class="btn" href="https://github.com/hugomnz/Formulario-reserva-viajes" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
 
-    <!-- Enlace al script -->
-    <script src="script.js"></script>
+        <!-- Mini-CryptoCompare -->
+        <article class="project card">
+          <div class="thumb">Cripto API</div>
+          <div class="body">
+            <h3>Mini-CryptoCompare</h3>
+            <p class="subtitle">Consulta de cotizaciones cripto en tiempo real usando la API de CryptoCompare.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <div class="buttons">
+              <a class="btn secondary" href="https://github.com/hugomnz/Mini-CryptoCompare#readme" target="_blank" rel="noopener">Ver</a>
+              <a class="btn" href="https://github.com/hugomnz/Mini-CryptoCompare" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Simulador-subida-archivos -->
+        <article class="project card">
+          <div class="thumb">Promesas</div>
+          <div class="body">
+            <h3>Simulador-subida-archivos</h3>
+            <p class="subtitle">Simula subidas con promesas y feedback de progreso/éxito/error.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <div class="buttons">
+              <a class="btn secondary" href="https://github.com/hugomnz/Simulador-subida-archivos#readme" target="_blank" rel="noopener">Ver</a>
+              <a class="btn" href="https://github.com/hugomnz/Simulador-subida-archivos" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Minesweeper -->
+        <article class="project card">
+          <div class="thumb">Minesweeper</div>
+          <div class="body">
+            <h3>Minesweeper</h3>
+            <p class="subtitle">Buscaminas en MakeCode Arcade con TypeScript, tablero a pantalla completa y primer click seguro.</p>
+            <div class="tags">
+              <span class="tag">TypeScript</span><span class="tag">MakeCode Arcade</span>
+            </div>
+            <div class="buttons">
+              <a class="btn secondary" href="https://github.com/hugomnz/Minesweeper#readme" target="_blank" rel="noopener">Ver</a>
+              <a class="btn" href="https://github.com/hugomnz/Minesweeper" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== Habilidades ===== -->
+    <section id="skills">
+      <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Habilidades</h2>
+      <div class="skills">
+        <div class="chip">HTML</div>
+        <div class="chip">CSS</div>
+        <div class="chip">JavaScript</div>
+        <div class="chip">Python</div>
+        <div class="chip">Git & GitHub</div>
+        <div class="chip">Linux</div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section id="contact">
+      <h2 class="section-title"><span class="bar" aria-hidden="true"></span> Contacto</h2>
+      <div class="card pad">
+        <p class="subtitle">Puedes escribirme directamente a:</p>
+        <p><a href="mailto:mperez.hugo6@gmail.com">mperez.hugo6@gmail.com</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" style="padding:0">
+        © <span id="year"></span> Hugo Muñoz Pérez · Hecho con HTML, CSS y JS
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
